@@ -1,0 +1,71 @@
+
+.body{
+    background-color: wheat;
+   }
+   .profile {
+     margin-top:50px;
+     display: flex;
+   }
+   .user{
+       width: 38%;
+       height: 100vh;
+       background-color: white;
+       margin: 15px;
+       border-radius: 15px;
+       box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   }
+   .user-info{
+       width: 58%;
+       background-color: white;
+       box-shadow: 5px 5px 5px 4px white;
+       height: 100vh;
+       border-radius: 15px;
+       margin: 15px;
+       box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   }
+   .user-icon-btn{
+       text-align: center;
+       align-items: center;
+   
+   }
+   .user-img {
+      font-size: 80px;  
+   }
+   .follow-btn button{
+       margin: 5px;
+       border-radius: 18px;
+       
+   }
+   .form-row{
+       display: flex;
+       padding: 10px;
+   }
+   .col-md-5{
+       margin: auto;
+   }
+   .col-md-4{
+       margin: auto;
+   }
+   .col-md-2{
+       margin: auto;
+   }
+   .user-form{
+       margin:20px 80px;
+       align-items: center;
+       justify-content: center;
+   }
+   .user-link{
+       margin: 20px 60px;
+   }
+   .link{
+       display: block;
+       padding: 10px;
+   }
+   .link a{
+       float: right;
+   }
+   .update-btn{
+       
+       text-align: center;
+   }
+   

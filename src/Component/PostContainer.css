@@ -1,0 +1,50 @@
+
+
+.f-card {
+  /*height:400px;*/
+  background-color:white ;
+  width:100%;
+  border: 1px solid #d0d1d5;
+  border-radius:3px;
+  margin: auto;
+  margin-bottom:10px;
+  padding: 12px; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, .30); /* Not original, just a test */
+}
+
+.header {
+  display: flex;
+  border-bottom: #e4e6ef;
+}
+.username{
+  text-shadow: 0.2px 0.2px 1px #000000;
+  padding: 2%;
+  
+}
+.content{
+  color: black;
+  text-align: justify;
+  padding: 2%;
+  font-family: "Times New Roman", Times, serif;
+}
+.image_post {
+  background: #e4e7ea;
+  border: 1px solid #e6e9ed;
+  width: 400px;
+  height: 300px;
+}
+
+.image-contain {
+  object-fit: contain;
+  object-position: center;
+}
+
+.image-cover {
+  object-fit: cover;
+  object-position: right top;
+}
+.img_profile {
+  margin: 5px 0px 5px 5px;
+  border-radius: 50%;
+  width:70px;
+}

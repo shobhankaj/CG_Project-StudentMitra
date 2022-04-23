@@ -1,0 +1,36 @@
+.content_container{
+    margin-top: 60px;
+    display: flex;
+    background-color: aliceblue;
+    
+    
+}
+.content_container1{
+    flex: 1;
+    margin: 10px; 
+    
+    
+}
+.content_container2{
+    
+    flex: 2;
+    margin: 10px;
+   
+    width: 100%;
+}
+.content_container3{
+    flex: 1;
+    margin: 10px;
+    
+}
+@media screen and (min-width: 600px) {
+    .content_container2:{
+        flex:100%;
+    }
+    .content_container3{
+        flex: 0%;  
+    }
+    .content_container1{
+        flex: 0%;  
+    }
+}
