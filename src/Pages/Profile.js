@@ -8,7 +8,6 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 function Profile() {
   return (
     <div className='profile'>
-      <>
 {/* user picture and button section */}
       <div className='user'>
         <div className='user-icon-btn'>
@@ -103,7 +102,7 @@ function Profile() {
            </div>
         </form>
       </div>
-      </>
+
        {/*  */}
     </div>
   )

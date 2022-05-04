@@ -13,7 +13,7 @@ import profile from './image/profile.png';
 
 function Navbar(){
     return (
-      <>
+      <div className="hamar_nav">
       <div className="center">
           <div className="logo_container">StudentMitra</div>
         </div>
@@ -23,7 +23,7 @@ function Navbar(){
         <li><Link to="/Siksha"><img src={siksha} alt="Siksha" className="img_style"></img></Link></li>
         <li><Link to="/Profile"><img src={profile} alt="profile" className="img_style" ></img></Link></li>
       </ul>
-      </>
+      </div>
          
         
       

@@ -23,9 +23,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: rgb(202, 82, 12);
-  position: fixed;
-  top:10;
-  left:0;
+ 
   width: 100%;
 }
 
@@ -39,7 +37,14 @@ li {
 }
 .img_style {
   margin: 0px;
-  width:30px;
-  height: 20px;
+  width:40px;
+  height: 40px;
 }
+.hamar_nav{
+
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background-color: aliceblue;}
 

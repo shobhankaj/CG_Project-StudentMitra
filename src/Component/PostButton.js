@@ -30,7 +30,7 @@ function PostButton(){
             </form>
           </Modal.Body>
           <Modal.Footer><div><input type="file" name="myImage" accept="image/x-png,image/gif,image/jpeg" /></div>
-                        <button>Post</button></Modal.Footer>
+                        <button type="submit">Post</button></Modal.Footer>
         </Modal>
 
         <div className="hamar_card">
